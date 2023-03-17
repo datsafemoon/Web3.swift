@@ -33,9 +33,11 @@ public protocol BytesInitializable {
  */
 public typealias BytesConvertible = BytesRepresentable & BytesInitializable
 
+/*
 public extension BytesInitializable {
     init(_ bytes: BytesRepresentable) throws {
         let bytes = try bytes.makeBytes()
         try self.init(bytes)
     }
 }
+*/
